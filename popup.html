@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 200px;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      background-color: #4285F4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h3>YouTube Detox</h3>
+  <label for="keywords">Keywords:</label>
+  <input type="text" id="keywords" placeholder="e.g., tech, music">
+  
+  <label for="channels">Channels:</label>
+  <input type="text" id="channels" placeholder="e.g., Linus Tech Tips">
+  
+  <button id="save">Save</button>
+  <button id="toggle">Turn On/Off</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
